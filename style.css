@@ -1,0 +1,98 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 615px;
+    background-image: url(https://img.freepik.com/free-vector/night-mountain-valley-with-moon-glowing-clouds_107791-26338.jpg?semt=ais_hybrid&w=740&q=80);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    box-shadow: 0 0 10px gray;
+    max-width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.input-area{
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: #2980b9;
+}
+
+ul{
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li span{
+    flex: 1 1 100%;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.actions{
+    display: flex;
+    gap: 5px;
+}
+
+.actions button{
+    background: #23cc71;
+}    
+
+.actions button:last-child{
+    background: #e74c3c;
+}
+
+@media(min-width :650px){
+    li span{
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
